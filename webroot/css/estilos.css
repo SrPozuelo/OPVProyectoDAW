@@ -48,6 +48,10 @@ body {
                 & .autor {
                     color: #888;
                     font-style: italic;
+                    & a{
+                        color:cyan;
+                        text-decoration:none;
+                    }
                 }
             }
             & .iconos-footer a{

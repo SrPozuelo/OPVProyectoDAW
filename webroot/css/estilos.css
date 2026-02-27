@@ -311,6 +311,14 @@ body {
     cursor: pointer; 
     position: relative;
     border: 1px solid transparent;
+    & .tarjeta-imagen {
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        color: white;
+    }
     & .tarjeta-contenido {
         padding: 1.2rem;
         text-align: center;
@@ -324,22 +332,12 @@ body {
             font-weight: 800;
             color: var(--color-principal);
             margin-bottom: 5px;
-        }
         & .nombre {
             font-weight: 700;
             font-size: 0.9rem;
             color: #555;
             line-height: 1.3;
         }
-    }
-    & .tarjeta-imagen {
-        height: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2.5rem;
-        color: white;
-
     }
 }
 .tarjeta:hover {

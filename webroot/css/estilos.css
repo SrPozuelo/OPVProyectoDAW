@@ -254,9 +254,10 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    text-decoration:none;
 }
-.card-destacada.azure-style:hover .boton-cta {
-    background-color: white;
+.boton-cta:hover  {
+    background-color: white !important;
     color: var(--azure-blue-start);
     transform: translateX(0);
 }
